@@ -1,0 +1,67 @@
+input {
+    /*
+    Dimensions
+    */
+    width:500px;
+
+    border: 2px solid rgb(162, 225, 255);
+    border-radius: 10px;
+
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+    padding: 2%;
+
+
+
+    /*
+    Autre styles
+    */
+    font-size: 150%;
+    background-color: rgba(62, 125, 125, 0.5);
+    color: aliceblue;
+
+}
+
+
+label {
+    font-size: 150%;
+}
+
+body {
+    /*
+    Dimensions
+    */
+    width: 100vw;
+
+    /*
+    Placement des elements
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*
+    Autre styles
+    */
+    background-color: black;
+}
+
+form {
+    /*
+    Dimensions
+    */
+    padding: 5%;
+
+    border:5px solid rgb(162, 225, 255);
+    border-radius: 30px;
+
+    margin-top: 5%;
+
+    /*
+    Autre styles
+    */
+    background-color: rgba(162, 225, 255, 0.5);
+    color: aliceblue;
+}
+

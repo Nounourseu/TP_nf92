@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="calculer.php" method="POST">
+	<div class="calc">
+        	<input type="number" name="n1">
+		<input type="text" id="ope" name="ope" readonly>
+        	<input type="number" name="n2">
+	</div>
+        <br>
+        <input type="button" onclick="document.getElementById('ope').value = '+'" value="+" name="add">
+        <input type="button" onclick="document.getElementById('ope').value = '-'" value="-" name="sub">
+        <input type="button" onclick="document.getElementById('ope').value = '*'" value="*" name="mul">
+        <input type="button" onclick="document.getElementById('ope').value = '/'" value="/" name="div">
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
