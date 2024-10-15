@@ -28,6 +28,7 @@ label {
     font-size: 150%;
 }
 
+
 body {
     /*
     Dimensions
@@ -47,6 +48,7 @@ body {
     background-color: black;
 }
 
+
 form {
     /*
     Dimensions
@@ -59,9 +61,29 @@ form {
     margin-top: 5%;
 
     /*
-    Autre styles
+    Autre
     */
     background-color: rgba(162, 225, 255, 0.5);
     color: aliceblue;
+}
+
+
+
+#chargement {
+    /*
+    Position
+    */
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    /*
+    Autre
+    */
+    pointer-events: none;   
+    display: none;
 }
 

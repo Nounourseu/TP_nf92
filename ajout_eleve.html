@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="formulaire.css">
 </head>
 <body>
-    <form method="POST" action="ajouter_eleve.php">
+    <form id="form" method="POST" action="ajouter_eleve.php" onsubmit="chargement()">
         <h2>Ajout élève</h2>
         <br>
         <label>Nom : </label>
@@ -23,7 +23,8 @@
         <br>
         <input type="submit" value="Saisir">
         <br>
-
     </form>
 </body>
+<img id="chargement" src="images/chargement.webp">
+<script src="formulaire.js"></script>
 </html>

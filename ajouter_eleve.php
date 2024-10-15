@@ -34,6 +34,8 @@
     date_default_timezone_set('Europe/Paris');
     $date = date("Y\-m\-d");
     echo "<br><br> la date actuelle est : "."$date"." <br>";
+    sleep(2);
 ?>
+
 
 </html>
